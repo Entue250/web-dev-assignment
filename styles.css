@@ -409,41 +409,16 @@ header .navbar{
     background: transparent;
 }
 
-/* Basic container styling */
-.container {
-    display: flex;
-    align-items: center;
-    cursor: pointer;
-    width: 200px;
-  }
-
-  /* Triangle styling */
-  .triangle {
-    width: 0;
-    height: 0;
-    border-top: 10px solid transparent;
-    border-bottom: 10px solid transparent;
-    border-left: 10px solid black;
-    margin-right: 10px;
-    transition: transform 0.3s ease;
-  }
-
-  /* Hidden content styling */
-  .content {
-    display: none;
-    transition: opacity 0.3s ease;
-  }
-
-  /* Rotate triangle when active */
-  .container.active .triangle {
-    transform: rotate(90deg);
-  }
-
-  /* Show content when active */
-  .container.active .content {
-    display: block;
-    opacity: 1;
-  }
+summary{
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+ol{
+    font-size: 20px;
+    line-height: 30px;
+    padding-left: 20px;
+    margin-bottom: 5px;
+}
 
 /* Footer section styling */
 .footer-section{
