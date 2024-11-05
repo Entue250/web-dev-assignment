@@ -48,3 +48,12 @@ const swiper = new Swiper('.slider-wrapper', {
         },
     }
 });
+
+// Toggle function to show/hide content from contact us page
+function toggleContent() {
+    const container = document.querySelector('.container');
+    const content = document.querySelector('.content');
+
+    container.classList.toggle('active');
+    content.style.display = content.style.display === 'block' ? 'none' : 'block';
+  }
